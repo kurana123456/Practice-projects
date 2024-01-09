@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Crash Course</title>
+    <title>Simple HTML Website</title>
 </head>
+
+<!--Navigation/logo-->
 <body>
-    My name is Marie!!!
+    <section>
+        <nav>
+            <img src="./HTML Practise Assets/FES.svg" alt="">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div>
+                <h1>Best Place to Learn Frontend</h1>
+                <p>Go from being an absolute beginner to a pro with a simplified process</p>
+                <button>Start Now</button>
+            </div>
+            <figure>
+                <img src="./HTML Practise Assets/laptop.png" alt="">
+            </figure>
+        </header>
+    </section>
+
+<!--Sections for the website-->
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, similique quo neque perferendis aspernatur officiis pariatur commodi eius eos nihil consectetur alias consequatur sint quos ipsam totam vel optio nobis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi dolor corrupti libero minus dolorum, voluptate omnis, nobis magni cumque quaerat quam harum ab mollitia quo doloribus vel ipsam expedita assumenda.</p>
+            </div>
+            <figure>
+                <img src="./HTML Practise Assets/about.jpg" alt="">
+            </figure>
+        </section>
+
+        <section id="discord"></section>
+        <h2>Discord</h2>
+        <figure>
+            <img src="./HTML Practise Assets/discord.png" alt="">
+        </figure>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, similique quo neque perferendis aspernatur officiis pariatur commodi eius eos nihil consectetur alias consequatur sint quos ipsam totam vel optio nobis.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi dolor corrupti libero minus dolorum, voluptate omnis, nobis magni cumque quaerat quam harum ab mollitia quo doloribus vel ipsam expedita assumenda.</p>
+        </div>
+
+        <section id="contact"></section>
+        <h2>Contact</h2>
+        <form action="">
+            <span>Email</span>
+            <input type="text" placeholder="mike@example.com">
+            <span>Message</span>
+            <textarea type="text" placeholder="Message"></textarea>
+        </form>
+        <button>Submit</button>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <img src="./HTML Practise Assets/FES.svg" alt="">
+        <div>
+            <a href="#about">About</a>
+            <a href="#Discord">Discord</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <div>
+            <p>&COPY; 2024 Frontend Simplified</p>
+        </div>
+    </footer>
 </body>
+
 </html>
